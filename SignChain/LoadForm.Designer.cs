@@ -39,6 +39,7 @@ namespace SignChain
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "LoadForm";
             this.Text = "SignChain";
+            this.Load += new System.EventHandler(this.LoadForm_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.LoadFormPaint);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LoadFromOnClick);
             this.ResumeLayout(false);

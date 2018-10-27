@@ -259,5 +259,10 @@ namespace SignChain
                 }
             }
         }
+
+        private void LoadForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

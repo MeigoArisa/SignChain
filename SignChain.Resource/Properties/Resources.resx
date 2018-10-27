@@ -124,11 +124,17 @@
   <data name="file_attach_progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\file_attach_progress.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="file_attach_progress2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\file_attach_progress2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="file_attach_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\file_attach_text.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="file_upload_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\file_upload_text.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\me.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="next_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\next_button.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -141,5 +147,8 @@
   </data>
   <data name="status_bar_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\status_bar_t.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="you" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\you.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
