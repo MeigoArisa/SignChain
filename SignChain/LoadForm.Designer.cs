@@ -40,6 +40,7 @@ namespace SignChain
             this.Name = "LoadForm";
             this.Text = "SignChain";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.LoadFormPaint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LoadFromOnClick);
             this.ResumeLayout(false);
 
         }

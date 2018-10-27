@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
+using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 
 namespace SignChain
@@ -67,13 +68,6 @@ namespace SignChain
             }
 
             this.Refresh();
-        }
-
-        private void InitSignForm()
-        {
-            this.Hide();
-            templateForm = new UserForm();
-            templateForm.Show();
         }
 
         void RenderPreview(Graphics graphics)
@@ -251,6 +245,19 @@ namespace SignChain
             }
 
             this.Refresh();
+        }
+
+        private void LoadFromOnClick(object sender, MouseEventArgs e)
+        {
+            if (e.X >= 790 && e.X <= 790 + ResourceMgr.nextButton.Width)
+            {
+                if (e.Y >= 910 && e.Y <= 910 + ResourceMgr.nextButton.Height)
+                {
+                    this.Hide();
+                    templateForm = new UserForm();
+                    templateForm.Show();
+                }
+            }
         }
     }
 }

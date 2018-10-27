@@ -56,7 +56,7 @@ namespace SignChain
             {
                 using (Graphics graphics = Graphics.FromImage(tmpImage))
                 {
-                    RenderUser(grapihcs);
+                    RenderUser(graphics);
                     RenderBG(graphics);
                     RenderButtons(graphics);
                 }
